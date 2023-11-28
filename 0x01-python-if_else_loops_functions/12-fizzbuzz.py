@@ -1,3 +1,14 @@
-VimCrypt~03!ŠN›2òé ¶À¥O¿QÂn3ÚŽd)SmØo¶âyŒdçD¯ª„Z}Ân'õã•^“„ˆç*¯}‹ÝáráÙ²
-	wæB59†N„{i¬üŒAŒ¸i~ƒ¦ÿIÄQIìj4$90IÅß4vaª‹3ë"í4S;½·¾”¾ðK o¦æ$„`N~~ß“¡QWñ½ù×;‹Šñ;Ý¨bëÂ‹Ï<ƒ'ý}>š´-,K#<;¢©Õœ·A­ƒìÊâôÚxZV¤F¶lBx‹TÛ™ìi°<È<
-ZÅ•ß3CúÞª‹Í’8]ˆR’õUÎóB(òÿ³­ÅÀ+:l6ÔŠý8çúÑ8¥Ö:`L2DÒ@Ê×V7¦¥L&º+¸V¤‹ûéoø•°ì6Øæ,æ¿— ”Cm(£=qš<Ón‹o¬MŸ
+#!/usr/bin/python3
+
+def fizzbuzz():
+    for i in range(1, 101):
+        if i % 3 == 0 and i % 5 == 0:
+            print("FizzBuzz", end='')
+        elif i % 3 == 0:
+            print("Fizz", end='')
+        elif i % 5 == 0:
+            print("Buzz", end='')
+        else:
+            print(i, end='')
+
+        print(" ", end='')
