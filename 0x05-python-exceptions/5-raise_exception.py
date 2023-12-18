@@ -1,5 +1,7 @@
+#!/usr/bin/python3
+# 5-raise_exception.py
 
-# Write a function that raises a type exception.
 
 def raise_exception():
-    raise TypeError()
+    """Raise a TypeError exception."""
+    raise TypeError
